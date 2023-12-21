@@ -2,7 +2,7 @@
 
 # Selenium Scenario Components 
 
-![https://github.com/vuhung16au/selenium/blob/main/Test-Scenario-Components.png]
+![Selenium Scenario Components ](https://github.com/vuhung16au/selenium/blob/main/Test-Scenario-Components.png?raw=true)
 
 # Development Environment 
 
