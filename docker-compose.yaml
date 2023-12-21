@@ -15,6 +15,8 @@ services:
   wordpress:
     depends_on:
       - db
+
+      # As of 2023/12/21, the version of Wordpress is 6.4.2
     image: wordpress:latest
     restart: always
     # Restart line controls the restart mode, meaning if the container stops running for any reason, it will restart the process immediately.
