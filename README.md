@@ -8,7 +8,7 @@ Important concepts
 1. Actions APIs
 2. Interactions with web pages
 3. Navigate the browsers
-4. Find element on web pages 
+4. Find elements on web pages 
 
 ![Selenium Scenario Components ](https://github.com/vuhung16au/selenium/blob/main/Test-Scenario-Components.png?raw=true)
 
@@ -36,4 +36,4 @@ The list of ongoing test cases
 
 
 # References 
-[Awesome links for Slenium resourcs](https://github.com/vuhung16au/selenium/blob/main/selenium-awesomeness.md)
+[Awesome links for Selenium resources](https://github.com/vuhung16au/selenium/blob/main/selenium-awesomeness.md)
