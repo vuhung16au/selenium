@@ -36,3 +36,4 @@ The list of ongoing test cases
 
 
 # References 
+[Awesome links for Slenium resourcs](https://github.com/vuhung16au/selenium/blob/main/selenium-awesomeness.md)
