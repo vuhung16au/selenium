@@ -16,7 +16,7 @@
 		driver.findElement(By.xpath("//input[@id='last_name']")).sendKeys("Teser");
 		driver.findElement(By.xpath("//input[@id='url']")).sendKeys("https://google.com");
 		
-		//TOD if needed: Set password instead using pre-generated password 
+		//TODO if needed: Set password instead using pre-generated password 
 		System.out.println("Password is: " + driver.findElement(By.xpath("//input[@id='pass1']")).getText());
 		
 		// TODO Set user role 
