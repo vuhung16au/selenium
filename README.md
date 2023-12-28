@@ -19,7 +19,7 @@ Important concepts
 # Wordpress Demo Project on localhost 
 [Install Wordpress using docker on localhost](https://github.com/vuhung16au/selenium/blob/main/Install-Worldpress-on-Localhost-Using-Docker.md)
 
-# Test cases 
+# Test Cases 
 
 The list of ongoing test cases 
 
@@ -27,13 +27,15 @@ The list of ongoing test cases
 2. Add new users
 3. Post a new blog 
 
-# Test codes 
+# Test Codes 
 
 1. [Login with a valid username/password](https://github.com/vuhung16au/selenium/blob/main/loginInvalidUsernamePassword.java)
 2. [Login with an invalide username/password](https://github.com/vuhung16au/selenium/blob/main/loginValidUsernamePassword.java) 
 3. [Add a new Wordpress user](https://github.com/vuhung16au/selenium/blob/main/addUser.java)
 4. [Publish a new blog post](https://github.com/vuhung16au/selenium/blob/main/publishNewBlogPost.java)
 
+# Related Resources 
 
+- [assert with AssertJ](https://github.com/vuhung16au/selenium/blob/main/assertJ.md)
 # References 
 [Awesome links for Selenium resources](https://github.com/vuhung16au/selenium/blob/main/selenium-awesomeness.md)
