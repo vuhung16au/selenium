@@ -7,7 +7,9 @@ This file gives some example uses of assertJ.
 
 Add the following configurations to pom.xml 
 
-```
+
+
+```xml 
 		<!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
 		<dependency>
 		    <groupId>org.assertj</groupId>
@@ -19,7 +21,7 @@ Add the following configurations to pom.xml
 
 # Library imports 
 
-```
+```java
 package com.vuhung.assertj;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -30,7 +32,7 @@ import static org.junit.Assert.assertEquals;
 
 # "Hello world" assertj
 
-```
+```java
 	@Test 
 	public void compareTwoInts () { 
 		
@@ -45,7 +47,7 @@ import static org.junit.Assert.assertEquals;
 
 # Assert Lists 
 
-```
+```java
 	@Test 
 	public void checkForElements() { 
 		List<String> list = Arrays.asList("1", "2", "3");
@@ -60,7 +62,7 @@ import static org.junit.Assert.assertEquals;
 
 # Assert Objects 
 
-```
+```java
 	@Test 
 	public void assertObjects() { 
 		
@@ -74,7 +76,7 @@ import static org.junit.Assert.assertEquals;
 
 # Assert Characters 
 
-```
+```java
 	@Test 
 	public void assertCharacters() { 
 		char charZ = 'Z';
@@ -89,7 +91,7 @@ import static org.junit.Assert.assertEquals;
 
 # Assert Files 
 
-```
+```java
 	@Test 
 	public void assertFile() { 
 		String fileName = "/etc/passwd";
@@ -108,8 +110,7 @@ import static org.junit.Assert.assertEquals;
 
 Can be used with double, float, integer 
 
-```
-	
+```java
 	@Test 
 	public void asssertNumberWithPrecision() { 
 		Double num1 = 11d;
@@ -122,7 +123,7 @@ Can be used with double, float, integer
 
 # Assert maps 
 
-```
+```java
 	@Test 
 	public void assertMap() { 
 		Map<String, String> countryCapital = new HashMap<String, String>();
