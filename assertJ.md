@@ -55,7 +55,11 @@ import static org.junit.Assert.assertEquals;
 		assertThat(list).isNotEmpty();
 		assertThat(list).startsWith("1");
 		assertThat(list).doesNotContain("4");
-		assertThat(list).isNotEmpty().contains("1").startsWith("1").doesNotContainNull().containsSequence("2", "3");
+		assertThat(list).isNotEmpty()
+		.contains("1")
+		.startsWith("1")
+		.doesNotContainNull()
+		.containsSequence("2", "3");
 		
 	}
 ```
