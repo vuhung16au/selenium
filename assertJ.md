@@ -1,5 +1,5 @@
 # Overview 
-assertJ is an open source asserting library, rich feature, easy to read easy to use.
+assertJ (fluent assertions java library) is an open source asserting library, rich feature, easy to read easy to use.
 Useful for verifying with selenium. 
 This file gives some example uses of assertJ. 
 
@@ -22,8 +22,6 @@ Add the following configurations to pom.xml
 # Library imports 
 
 ```java
-package com.vuhung.assertj;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.entry;
 import static org.assertj.core.api.Assertions.withPrecision;
@@ -40,7 +38,7 @@ import static org.junit.Assert.assertEquals;
 		int x = 1;
 		int y = 1; 
 				
-		// 1 is 1
+		// (value) 1 is 1
 		assertEquals(x, y);
 	}
 ```
@@ -144,5 +142,8 @@ Can be used with double, float, integer
 		.contains(entry("Japan", "Tokyo"));
 	}
 ```
+
+# References 
+- https://assertj.github.io/doc/
 
 
