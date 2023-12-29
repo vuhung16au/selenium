@@ -5,6 +5,8 @@ This guides how to use three types of waits in Selenium
 - Explicit Wait
 - Fluent Wait
 
+![Selenium Wait Strategies](https://github.com/vuhung16au/selenium/blob/main/selenium-wait-strategies.png?raw=true)
+
 # Sample code 
 
 ```java
