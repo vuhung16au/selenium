@@ -1,7 +1,7 @@
 # Overview 
 assertJ (fluent assertions java library) is an open source asserting library, rich feature, easy to read easy to use.
 Useful for verifying with selenium. 
-This file gives some example uses of assertJ. 
+This file gives some example uses of assertJ Core. 
 
 # assertJ configuration with maven 
 
