@@ -34,6 +34,11 @@ The list of ongoing test cases
 3. [Add a new Wordpress user](https://github.com/vuhung16au/selenium/blob/main/addUser.java)
 4. [Publish a new blog post](https://github.com/vuhung16au/selenium/blob/main/publishNewBlogPost.java)
 
+# Guidelines/Tutorials/Notes
+
+1. [Wait strategies in Selenium](https://github.com/vuhung16au/selenium/blob/main/selenium-wait-strategies.md)
+
+   
 # Related Resources 
 
 - [assert with AssertJ](https://github.com/vuhung16au/selenium/blob/main/assertJ.md)
