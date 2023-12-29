@@ -7,10 +7,10 @@ services:
     # image: mysql:5.7 indicates the MySQL database container image from Docker Hub used in this installation.
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: MyR00tMySQLPa$$5w0rD
-      MYSQL_DATABASE: MyWordPressDatabaseName
-      MYSQL_USER: MyWordPressUser
-      MYSQL_PASSWORD: Pa$$5w0rD
+      MYSQL_ROOT_PASSWORD: My$qlPassw0rd
+      MYSQL_DATABASE: WordpressDBSelenium
+      MYSQL_USER: MyWPUser
+      MYSQL_PASSWORD: WpP@ssw0rd
       # Previous four lines define the main variables needed for the MySQL container to work: database, database username, database user password, and the MySQL root password.
   wordpress:
     depends_on:
@@ -25,9 +25,9 @@ services:
       # The previous line defines the port that the WordPress container will use. After successful installation, the full path will look like this: http://localhost:8000
     environment:
       WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: MyWordPressUser
-      WORDPRESS_DB_PASSWORD: Pa$$5w0rD
-      WORDPRESS_DB_NAME: MyWordPressDatabaseName
+      WORDPRESS_DB_USER: MyWPUser
+      WORDPRESS_DB_PASSWORD: WpP@ssw0rd
+      WORDPRESS_DB_NAME: WordpressDBSelenium
 # Similar to MySQL image variables, the last four lines define the main variables needed for the WordPress container to work properly with the MySQL container.
     volumes:
       ["./:/var/www/html"]
