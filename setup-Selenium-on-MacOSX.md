@@ -295,4 +295,13 @@ Publish new blog spot
 
 Full Report: file:///Users/vuhung/eclipse-workspace/selenium-itnews/target/site/serenity/index.html
 
+# Run maven test
+
+```bash
+mvn clean verify site
+```
+- `clean`: Removes the target directory, ensuring a clean build environment.
+- `verify`: Executes tasks to verify the integrity and quality of the project, often including running integration tests.
+- `site`: Generates project documentation and reports, placing them in the target/site directory.
+
 
