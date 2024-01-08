@@ -16,6 +16,7 @@ cd 05Selenium-docker-wordpress
 ```
 touch docker-compose.yaml
 ``` 
+-> https://github.com/vuhung16au/selenium/blob/main/docker-compose.yaml
 
 ``` 
 docker compose up -d
